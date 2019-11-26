@@ -3,8 +3,6 @@ import axi from '@/apiconfig/axi'
 import Header from '../../components/public/Header.vue'
 import Footer from '../../components/public/Footer.vue'
 import Filtercomponents from '../../components/common/Filtercomponents.vue'
-import Cursor from 'wavesurfer.js/dist/plugin/wavesurfer.cursor'
-
 export default {
   name: 'MusicWarehouse',
   components: {
@@ -46,11 +44,11 @@ export default {
       nghe: [],
       dang: null,
       playuuid: [],
-      options: {},
-      file: '',
-      plugins: [
-        Cursor.create()
-      ]
+      options: {
+        waveColor: 'violet',
+        progressColor: 'purple'
+      },
+      file: ''
     }
   },
   created () {
@@ -150,9 +148,8 @@ export default {
           this.audio = true
           this.audiourl = ms.data.url
           this.file = ms.data.url
-          var myVid = document.getElementById('audio')
-          myVid.autoplay = true
-          myVid.load()
+          this.wavesurfer.playPause()
+          return this.$refs.surf.waveSurfer
         }
       } catch (e) {
 

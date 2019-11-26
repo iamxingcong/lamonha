@@ -4,12 +4,10 @@
   <Filtercomponents   v-on:filterparams="parmfromchild"></Filtercomponents>
 
   <div class='content'>
-    <div class='mplayingdiv'>
-
+    <div class='mplayingdiv' v-if='audio'>
+      <vue-wave-surfer :src="file" :options="options"></vue-wave-surfer>
     </div>
-    <template v-if='audio'>
-      <vue-wave-surfer :src="audiourl" :options="options"></vue-wave-surfer>
-    </template>
+
     <span class='vtitles'> Speaklow 的音乐</span>
 
     <div id='smusiclists'>
