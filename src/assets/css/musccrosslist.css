@@ -1,0 +1,185 @@
+
+.msingle{
+  min-height: 140px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  overflow: auto;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+
+.mavatar{
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+  margin: 20px;
+  background-size: 100% 100%, 44px 44px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.rwrap{
+  width: calc(100% - 152px);
+  display: block;
+  float: left;
+  text-align: left;
+}
+.mname{
+  display: block;
+  float: left;
+  max-width:280px;
+  font-size: 1.2em;
+  font-weight:bold;
+  color:rgba(0,0,0,1);
+  line-height:23px;
+  height: 23px;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  overflow: hidden;
+}
+.track_count{
+  float: left;
+  font-size: 0.9em;
+  font-weight:400;
+  color:rgba(98,113,149,1);
+  line-height:23px;
+  display: block;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.composer{
+  font-weight:400;
+  color:rgba(52,54,58,1);
+  line-height:23px;
+
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+.top, .bottom{
+  display: block;
+  clear: both;
+  width: 100%;
+  float: left;
+}
+.top{
+  margin-top: 19px;
+}
+.desc{
+  color: #838791;
+  display: block;
+  color: #838791;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 700px;
+  text-align: left;
+}
+.category_info_list{
+  display: block;
+  clear: both;
+  float: left;
+}
+.category_info_list span{
+  height: 24px;
+  background: rgba(240,241,242,1);
+  border-radius: 12px;
+  display: block;
+  float: left;
+  line-height: 24px;
+  padding: 0px 11px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#mlistswrap{
+  width: 100%;
+  background: #fff;
+  display: block;
+  clear: both;
+  padding-top: 20px;
+  overflow: auto;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+.avtarwraps{
+  display: block;
+  width: 140px;
+  height: 140px;
+  float: left;
+  position: relative;
+
+}
+.unmcontrols{
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  z-index: 999;
+  margin: 20px;
+  cursor: pointer;
+  background-position: center center;
+  background-size: 44px 44px;
+  background-repeat: no-repeat;
+
+}
+.mcontrols{
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  z-index: 999;
+  margin: 20px;
+  cursor: pointer;
+  background-position: center center;
+  background-size: 44px 44px;
+  background-repeat: no-repeat;
+}
+.download,
+.addto{
+  display: block;
+  float: right;
+  width: 40px;
+  height: 40px;
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.msingle .cross{
+  margin-bottom: 15px;
+  min-height: 23px;
+}
+.rwrap .length{
+  line-height: 40px;
+}
+.rwrap .bpm{
+  line-height: 23px;
+  color: #6C717A;
+  float: right;
+  margin-right: 349px;
+  margin-left: 19px;
+}
+.composerm,
+.lyricist{
+  display: block;
+  height: 23px;
+  line-height: 23px;
+  float: right;
+  color: #34363A;
+  margin-left: 19px;
+}
+audio{
+  margin-bottom: 50px;
+}
+#mlistswrap  .vtitles{
+  cursor: pointer;
+}
+.rightlogowrap{
+  display: block;
+  float: right;
+}

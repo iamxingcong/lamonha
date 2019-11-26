@@ -1,0 +1,90 @@
+.container{
+  background:rgba(240,241,242,1);
+}
+.personinfo{
+  height: 160px;
+  margin-top: 31px;
+  margin-bottom: 16px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.ucavatar{
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 72px;
+  border-radius: 80px;
+}
+.ucname{
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 160px;
+  text-align: left;
+  padding-left: 20px;
+  height: 160px;
+  float: left;
+}
+
+#uclists{
+  display: block;
+  min-height: 500px;
+  margin: 0px auto;
+}
+html, body, #app, .container {
+  min-height: 100%;
+}
+.pbginfo{
+ display: block;
+ clear: both;
+ background-color: #fff;
+ padding: 20px 30px;
+ margin-bottom: 16px;
+}
+.el-col span,
+.pbginfo span{
+  font-size: 1.1em;
+  font-weight: 400;
+}
+#revsieinfo{
+  cursor: pointer;
+  color: #6C717C;
+}
+.goback{
+  height: 20px;
+  width: 20px;
+  display: block;
+  float: left;
+  background-size: 100% 100%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.el-col span{
+  margin-bottom: 24px;
+  font-size: 1.23em;
+  color:rgba(79,83,89,1);
+}
+.mgb50{
+  margin-bottom: 50px;
+}
+.mgb50 span{
+  font-size: 1.15em;
+  color: #4F5359;
+}
+#pane-MyProject .el-table__row:nth-child(even){
+  background:rgba(246,246,246,1) !important;
+}
+.el-table tr:nth-child(even) {
+  background:rgba(246,246,246,1) !important;
+}
+.noproj{
+  color: #838791;
+  font-size: 1.23em;
+  font-weight: 400;
+}

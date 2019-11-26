@@ -1,0 +1,153 @@
+#header{
+  background-color: #34363A;
+  min-height: 110px;
+  display: block;
+  clear: both;
+}
+#headerdetail{
+  background-color: #34363A;
+  min-height: 80px;
+  display: block;
+  clear: both;
+}
+.hdcross{
+  min-height: 80px;
+  max-width: 1230px;
+  margin: 0px auto;
+}
+.wd250{
+  margin-top: 20px;
+  height: 40px;
+  float: right;
+  display: block;
+}
+.loginreg{
+  height: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+  display: block;
+  float: right;
+  color: #9DA1AE;
+  margin-right: 15px;
+  margin-left: 100px
+}
+
+.loginreg button{
+  margin: 0px;
+  padding: 0px;
+  color: #9DA1AE;
+}
+#carts{
+  display: block;
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  line-height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+#carts i{
+  font-size: 18px;
+  color: #fff;
+}
+#logoi{
+  width: 32px;
+  display: block;
+  float: left;
+  margin-right: 40px;
+  margin-left: 15px;
+  height: 80px;
+  z-index: 999;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  cursor: pointer;
+}
+#userid{
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  float: right;
+  margin-top: 22.5px;
+  overflow: hidden;
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+#tabswrap{
+  height: 80px;
+  display: block;
+  float: left;
+  background-color: #34363A;
+}
+.el-menu--horizontal>.el-menu-item{
+  background-color: #34363A;
+  border-bottom: none !important;
+  height: 80px;
+  line-height: 80px;
+}
+.el-menu.el-menu--horizontal{
+  border-bottom: none !important;
+}
+.el-menu--horizontal>.el-menu-item:hover{
+  background-color: #34363A;
+  color: #fff !important;
+}
+.el-menu--horizontal>.el-menu-item.is-active{
+  background-color: #34363A !important;
+  color: #FFFFFF;
+}
+.dropdownitm{
+  width: 160px;
+  height: 196px;
+  background-color: #34363A;
+  color:rgba(218,219,224,1);
+  position: absolute;
+  top: 78px;
+  right: 0px;
+  padding-top: 15px;
+  border-radius: 2px;
+  display: none;
+  z-index: 9999;
+}
+.phoverdrop{
+  display: block;
+  float: right;
+  width: 120px;
+  height: 80px;
+}
+#lgedwraps{
+  display: block;
+  float: right;
+  position: relative;
+}
+.dropdownitm .sitems{
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  clear: both;
+  padding-left: 19px;
+  cursor: pointer;
+  text-align: left;
+  color: #DADBE0;
+  font-weight: 400;
+
+}
+.ucount{
+  display: block;
+  margin-right: 20px;
+  width: 20px;
+  line-height: 20px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #E04F42;
+  margin-top: 10px;
+  color: #fff;
+}
+.phoverdrop:hover .dropdownitm{
+  display: block;
+}

@@ -1,0 +1,96 @@
+.logindiv{
+  max-width: 420px;
+  height: 445px;
+  margin: 0px auto;
+  background:rgba(255,255,255,1);
+  border-radius:5px 5px 5px 5px;
+  border: 1px solid #e2e2e2;
+}
+.resetdiv{
+  max-width: 420px;
+  height: 445px;
+  margin: 0px auto;
+  background:rgba(255,255,255,1);
+  border-radius:5px 5px 5px 5px;
+  border: 1px solid #fff;
+}
+#logo{
+  display: block;
+  width: 90px;
+  height: 90px;
+  clear: both;
+  padding: 21px;
+  margin: 0px auto;
+  margin: 0px auto;
+  background-size: 90px 90px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+.title_logo{
+  font-size: 1.38em;
+  line-height: 23px;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  clear: both;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.loginforms{
+  width: calc(100% - 80px);
+  margin: 0px auto;
+}
+.singrow{
+  max-width:336px;
+  height:42px;
+  border:1px solid rgba(218, 219, 224, 0.8);
+  border-radius:5px;
+  display: block;
+  clear: both;
+}
+.wcross button {
+  width: 100%;
+  margin-top: 22px;
+  background-color: #34363A;
+  color: #FFF;
+}
+
+
+/*  loginp */
+.woneh  button{
+  width: 100%;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 21px auto;
+}
+.logindiv  .center{
+  margin-top: 60px;
+  display: block;
+}
+.resetdiv .center{
+  margin-top: 60px;
+  display: block;
+}
+
+/* registers */
+.reminders{
+  line-height: 35px;
+}
+
+.logindiv .titles,
+.resetdiv .titles{
+  line-height: 120px;
+  font-size: 1.7em;
+}
+.secondsteps .singrow{
+  margin-bottom: 20px;
+}
+html, body, #app, .container{
+  height: 100% !important;
+}
+html, body, #app, .container {
+  height: 100%;
+}
+

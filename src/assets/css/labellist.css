@@ -1,0 +1,32 @@
+.vtitles{
+  font-size: 1.85em;
+  display: block;
+  float: left;
+  clear: both;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+.lblogo{
+  width: 160px;
+  height: 160px;
+  display: block;
+  float: left;
+  border-radius: 160px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.lsin{
+  width: 160px;
+  display: block;
+  float: left;
+  margin-right: 93px;
+}
+.ltitle{
+  font-size: 1.2em;
+  color: #34363A;
+  text-align: center;
+  padding-top: 26px;
+  display: block;
+  clear: both;
+}

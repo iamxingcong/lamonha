@@ -1,0 +1,146 @@
+.container,
+#app{
+  background-color: rgba(240,241,242,1);
+}
+span i{
+  font-style: normal;
+}
+.bottomdiv  span{
+  display: block;
+  float: left;
+  margin-bottom: 24px;
+  text-align: left;
+  color: #34363A;
+}
+
+.bottomdiv{
+  padding: 50px 0px;
+}
+.topdiv{
+  padding-top: 65px;
+}
+.bottomdiv,
+.topdiv{
+  max-width: 1230px;
+  margin: 0px auto;
+  width: 100%;
+  overflow: hidden;
+}
+#musicdetail{
+  width: 100%;
+  background-color: #ffffff;
+}
+.topdiv{
+  min-height: 205px;
+  display: block;
+  clear: both;
+  border-bottom: 1px solid rgba(242,242,242,1);
+
+}
+#mavatars{
+  width: 140px;
+  height: 140px;
+  display: block;
+  background-size: 100% auto;
+}
+.mwraps{
+  display: block;
+  float: right;
+  margin-left: 30px;
+}
+.mwraps .name{
+  font-size: 1.8em;
+  font-weight: bold;
+  float: left;
+  text-align: left;
+  margin-bottom: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mdownload{
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: right;
+  margin-left: 20px;
+  margin-top: 12px;
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.category_info_list{
+  display: block;
+  clear: both;
+  text-align: left;
+}
+.category_info_list span{
+  display: block;
+  float: left;
+  height:26px;
+  background:rgba(240,241,242,1);
+  border-radius:13px;
+  line-height: 26px;
+  text-align: center;
+  padding:  0px 15px;
+}
+.ctitle{
+  margin-top: 60px;
+  margin-bottom: 40px;
+  display: block;
+  clear: both;
+  font-size: 1.76em;
+  color: #34363A;
+
+  text-align: left;
+}
+.personintro{
+  height: 156px;
+  display: block;
+  clear: both;
+  background-color: #fff;
+}
+#smusiclists{
+  display: block;
+  max-width: 1230px;
+  margin: 0px auto;
+}
+.pavatar{
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  background-size: 100% auto;
+  margin-top: 38px;
+  margin-left: 30px;
+}
+.personintro .right{
+  width: calc(100% - 130px);
+}
+.personintro .titlel{
+  display: block;
+  clear: both;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.personintro  .intro{
+  display: block;
+  color: #6C717A;
+  font-size: 1.07em;
+  max-height: 25px;
+  line-height: 25px;
+  text-align: left;
+  margin-right: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+ }
+.bottomdiv .alignleft{
+  padding-left: 15px;
+}
