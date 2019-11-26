@@ -5,10 +5,11 @@
 
   <div class='content'>
     <div class='mplayingdiv'>
-      <audio v-if='audio' id="audio" :src="audiourl"  controls='controls'>
-          Your browser does not support HTML5 video.
-      </audio>
+
     </div>
+    <template v-if='audio'>
+      <vue-wave-surfer :src="audiourl" :options="options"></vue-wave-surfer>
+    </template>
     <span class='vtitles'> Speaklow 的音乐</span>
 
     <div id='smusiclists'>

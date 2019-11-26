@@ -9,6 +9,10 @@ import 'element-ui/lib/theme-chalk/index.css'
 import './assets/css/public.css'
 import './assets/css/maxwidth1230.css'
 
+import VueWaveSurfer from 'vue-wave-surfer'
+
+Vue.use(VueWaveSurfer)
+
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 
